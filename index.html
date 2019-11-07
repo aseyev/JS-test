@@ -5,33 +5,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Web-developer Anton Aseyev</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link href="css/normalize.css" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,700,700i&display=swap&subset=cyrillic"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i&display=swap&subset=cyrillic"
-    rel="stylesheet">
 
+  <title>Anton Aseyev. Web-self-development</title>
+
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700&display=swap&subset=cyrillic-ext"
+    rel="stylesheet">
 </head>
 
 <body>
-  <div class="slider" id="slider-one">
-    <button class="prev">PREV</button>
-    <img class="img" width="300"/>
-    <button class="next">NEXT</button>
-  </div>
 
-  <div class="slider" id="slider-two">
-    <button class="prev">PREV</button>
-    <img class="img" width="300"/>
-    <button class="next">NEXT</button>
-  </div>
-  
-  <script src="js/slider.js"></script>
-  <!-- <script src="js/script.js"></script> -->
+  <header class="header-inner">
+    <div class="container">
+      <article class="row">
+
+        <h2 class="col-sm-9 heading-inner"> <span>Anton Aseyev</span><br>
+          Links Collection. Examples JS, jQuery, Bootstrap </h2>
+
+        <div class="col-sm-3 social-icons">
+          <a href="#" class="social-icon-link">
+            <img src="img/icons/linkedin-flat.svg" alt="LinkedIn" class="social-icon-img" width="48">
+          </a>
+          </a>
+          <a href="#" class="social-icon-link">
+            <img src="img/icons/GMail-flat.svg" alt="gmail" class="social-icon-img" width="48">
+          </a>
+        </div>
+      </article>
+    </div>
+  </header>
+
+
+  <main>
+    <div class="container container-center">
+      <h1>Slideshows. Button Groups</h1>
+      <div class="btn-group btn-group-lg ">
+        <a href="html/slideshow1.html" class="btn btn-primary btn-info">Slideshow 1</a>
+        <a href="html/slideshow2.html" class="btn btn-primary btn-info">Slideshow 2</a>
+        <a href="#" class="btn btn-primary btn-info">Slideshow 3</a>
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+
+
+  <footer class="footer footer-inner">
+    <div class="container">
+
+      <div class="footer-cta-title">Write me your opinion </div>
+      <p class="footer-cta-text">
+        <a href="mailto:aseyev.1982@gmail.com">Here!</a>
+      </p>
+    </div>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- https://github.com/marioizquierdo/jquery.serializeJSON -->
+  <script src="libs/jquery.serializeJSON/jquery.serializejson.min.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 

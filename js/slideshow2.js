@@ -20,8 +20,8 @@ let sliderFactory = {
         let that = this;
         let el = this.getElement("#" + param);
 
-        this.nextButton = el.querySelector(".next");
-        this.prevButton = el.querySelector(".prev");
+        this.nextButton = el.querySelector(".next1");
+        this.prevButton = el.querySelector(".prev1");
         this.image = el.querySelector(".img");
 
         this.nextButton.addEventListener("click", function(e) {
