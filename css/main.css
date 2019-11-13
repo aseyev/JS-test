@@ -1,7 +1,10 @@
 /* ------------------- TEST ---------------------- */
 
 h1 {
-  margin-bottom: 20px;}
+  margin-bottom: 20px;
+}
+
+
 
 /* ------------------- General ------------------- */
 
@@ -27,6 +30,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 /* ------------------- Header ------------------- */
 
