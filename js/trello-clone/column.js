@@ -49,11 +49,11 @@ const Column = {
         }
 
         columnElement.innerHTML = `
-            <p class="column-header" contenteditable="true">В плане</p>
+            <p class="column-header" contenteditable="true">Planned</p>
             <div data-notes>
             </div>
             <p class="column-footer">
-                <span data-action-addNote class="action">+ Добавить карточку</span>
+                <span data-action-addNote class="action">+ Add Note</span>
             </p>`
             
         Column.process (columnElement)
