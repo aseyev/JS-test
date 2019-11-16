@@ -18,7 +18,7 @@ const Column = {
     
         headerElement.addEventListener('dblclick', function(event) {
             headerElement.setAttribute('contenteditable', 'true')
-            noteElement.focus()
+            headerElement.focus()
         })
     
         headerElement.addEventListener('blur', function(event) {

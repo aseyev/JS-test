@@ -3,7 +3,7 @@ const Application = {
         const object = {
             columns: {
                 idCounter: Column.idCounter,
-                columnHeader: 'column header',
+                header: 'column header',
                 items: []
             },
             notes: {
@@ -15,7 +15,7 @@ const Application = {
         .forEach(columnElement => {
             const column = {
                 id: parseInt (columnElement.getAttribute('data-column-id')),
-                columnHeader: 'textheader',
+                header: columnElement.querySelector('.column-header').textContent,
                 noteIds: []
             }
             columnElement.querySelectorAll('.note')
@@ -53,6 +53,7 @@ const Application = {
 
         for (const column of object.columns.items) {
             const columnElement = Column.create(column.id)
+            // columnElement.header = column.querySelector('.column-header').textContent
 
             mountePoint.append(columnElement)
             for (const noteId of column.noteIds) {
