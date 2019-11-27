@@ -1,0 +1,10 @@
+.car {
+    display: inline-block;
+    border: solid 1px black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.car .hide{
+    display: none;
+}

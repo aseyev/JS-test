@@ -17,7 +17,7 @@ let sliderFactory = {
                 return document.querySelector(id);
             },
             initialData: function () {
-                 this.urlList.push('https://www.look.com.ua/large/201210/53782.jpg');
+                this.urlList.push('https://www.look.com.ua/large/201210/53782.jpg');
                 this.urlList.push('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ69Mr4vWji47DmESTuyCgbdvFehjOwAJhhKn6jC2vKXfa3NU9h');
                 this.urlList.push('https://sebweo.com/wp-content/uploads/2019/06/landshaft-bernskikh-alp-v-yasniy-den_thumb.jpg');
                 this.urlList.push('https://focus.ua/storage/pub/images/2017/2615387.jpg');

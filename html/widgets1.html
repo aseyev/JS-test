@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./../css/widgets/widgets.css" type="text/css">
+</head>
+
+<body>
+    <div class="widget js-counter">
+        <div>Click counter:
+            <span class="js-counter-value">0</span>
+        </div>
+    </div>
+    <div class="clear-button">
+        <input type="button" value="clear counter"></input>
+    </div>
+
+    <div class="widget js-rating">
+        <div>Set your mark:
+            <div class="stars js-stars">
+                <img src="../img/icons/icon-star.svg" alt="1" class="">
+                <img src="../img/icons/icon-star.svg" alt="2" class="">
+                <img src="../img/icons/icon-star.svg" alt="3" class="">
+                <img src="../img/icons/icon-star.svg" alt="4" class="">
+                <img src="../img/icons/icon-star.svg" alt="5" class="">
+            </div>
+        </div>
+        <div class="clear-rating">
+            <input type="button" value="clear rating"></input>
+        </div>
+
+    </div>
+
+    <div class="widget gallery">
+        <div>My photos by URL:</div>
+        <div>
+            <ul class="photo-column js-photos"></ul>
+        </div>
+        <div>
+            <input class="js-new-photo">
+        </div>
+        <div>
+                Press 'Enter' to add photo
+        </div>
+        <div class="clear-photo">
+            <input type="button" value="clear photo"></input>
+        </div>
+    </div>
+
+    <script src="./../js/widgets/photo.js"></script>
+    <script src="./../js/widgets/rating.js"></script>
+    <script src="./../js/widgets/counter.js"></script>
+    <script src="./../js/widgets/widgets.js"></script>
+</body>
+
+</html>

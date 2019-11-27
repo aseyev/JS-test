@@ -1,0 +1,30 @@
+.widget {
+    width: 200px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 1px rgb(209, 204, 250);
+}
+.clear-button,
+.clear-rating,
+.clear-photo {
+    width: 100px;
+    margin: 10px auto;
+}
+.stars img {
+    width: 20px;
+}
+
+.stars img.active {
+    background-color: gold;
+}
+
+.photo-column {
+    list-style: none;
+    padding: 5px;
+} 
+
+.photo-column img {
+    width: 100%;
+}
