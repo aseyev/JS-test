@@ -1,5 +1,5 @@
 var slideIndex = 1; 
-showSlides(slideIndex); //this function shows FROM LOADING slide from array [argument-1], and dot [argument-1]
+showSlides(slideIndex); //this function shows slide from array and dot [argument-1]
 
 // Next/previous controls - HERE invoked from HTML with -1 or 1 argument, FROM HERE n=-1 or n=1 
 function plusSlides(n) {
