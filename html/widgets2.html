@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Compiled and minified CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" >
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,300i,400,700&display=swap&subset=cyrillic-ext"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col l4">
+                <div class="messagesNormalize card z-depth-1">
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h4 class="center">Task 1</h4>
+                        </div>
+                        <div class="card-action">
+                            <p>Take an object of 2 arrays: an array of all users, and an array of all messages.</p>
+                            <p>Write a function which iterates through received data 
+                                and returns a single array with data in the format:
+                                [{ messageText, userFromName, userToName }]</p>
+                            <p><strong>Bonus: </strong>Consider that there could be millions 
+                                of messages and thousands of users. How could you improve 
+                                the solution in order to optimize for performance?
+                                </p>
+                        </div>
+                        <div class="input-field">
+                            <label for="usersQuantity">Quantity of users (between 2 and 100):</label>
+                            <input type="number" id="usersQuantity" name="usersQuantity" min="2" max="100" value="2" >
+                        </div>
+                        <div class="input-field">
+                            <label for="messagesQuantity">Quantity of users (between 2 and 100):</label>
+                            <input type="number" id="messagesQuantity" name="messagesQuantity" min="1" max="100" value="1" >
+                        </div>
+                        <button class="btn">Generate</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l4">
+                <div class="equalShiftsAmount card z-depth-1">
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h4 class="center">Task 2</h4>
+                        </div>
+                        <div class="card-action">
+                            <p>Write a function that:</p>
+                            <ul>
+                                <li>Takes a string as an argument,</li>
+                                <li>Shifts the string by 1 letter on each loop,</li>
+                                <li>Returns the amount of times the shifted string is equal to the original string.</li>
+                            </ul>
+                        </div>
+                        <div class="input-field">
+                            <label for="stringForShift">String (between 2 and 20 symbols):</label>
+                            <input type="text" id="stringForShift" name="stringForShift" value="ecoapp">
+                        </div>
+                        <button class="btn">Shift</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col l4">
+                <div class="sumOfLinkedLists card z-depth-1">
+                    <div class="card-content">
+                        <div class="card-title">
+                            <h4 class="center">Task 3</h4>
+                        </div>
+                        <div class="card-action">
+                            <p>Write function what summarize linked lists.</p>
+                            <ul>
+                                <li>Input will always two non-empty linked lists representing two non-negative integers.</li>
+                                <li>The digits are stored in reverse order and each of their nodes contain a single digit.</li>
+                                <li>Return it as a linked list.</li>
+                            </ul>
+                        </div>
+                        <div class="input-field">
+                            <label for="numberForListFirst">Integer (between 1 and 10 digits):</label>
+                            <input type="number" id="numberForListFirst" name="numberForListFirst" min="2" max="100" value="342" >
+                        </div>
+                        <div class="input-field">
+                            <label for="numberForListSecond">Integer (between 1 and 10 digits):</label>
+                            <input type="number" id="numberForListSecond" name="numberForListSecond" min="1" max="100" value="465" >
+                        </div>
+                        <button class="btn">Count</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-title">
+                        <h5 class="center">Result</h5>
+                    </div>
+                    <div class="card-action">
+                        <p class="resultContent"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./../js/widgets2/messages-normalizer.js"></script>
+    <!-- <script src="./../js/widgets/rating.js"></script>
+    <script src="./../js/widgets/counter.js"></script>
+    <script src="./../js/widgets/widgets.js"></script> -->
+</body>
+
+</html>
