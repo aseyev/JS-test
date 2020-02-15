@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Tasks from ECO</title>
+    <link rel="icon" href="../img/favicon.ico" />
     <!-- Compiled and minified CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet" >
     <!--Import Google Icon Font-->
@@ -24,10 +25,10 @@
                             <h4 class="center">Task 1</h4>
                         </div>
                         <div class="card-action">
-                            <p>Take an object of 2 arrays: an array of all users, and an array of all messages.</p>
+                            <p>Take an object with 2 arrays: an array of all users, and an array of all messages.</p>
                             <p>Write a function which iterates through received data 
                                 and returns a single array with data in the format:
-                                [{ messageText, userFromName, userToName }]</p>
+                                <strong>[{ messageText, userFromName, userToName }]</strong>.</p>
                             <p><strong>Bonus: </strong>Consider that there could be millions 
                                 of messages and thousands of users. How could you improve 
                                 the solution in order to optimize for performance?
@@ -35,13 +36,13 @@
                         </div>
                         <div class="input-field">
                             <label for="usersQuantity">Quantity of users (between 2 and 100):</label>
-                            <input type="number" id="usersQuantity" name="usersQuantity" min="2" max="100" value="2" >
+                            <input type="number" id="usersQuantity" class="usersQuantity" min="2" max="100" >
                         </div>
                         <div class="input-field">
-                            <label for="messagesQuantity">Quantity of users (between 2 and 100):</label>
-                            <input type="number" id="messagesQuantity" name="messagesQuantity" min="1" max="100" value="1" >
+                            <label for="messagesQuantity">Quantity of messages (between 1 and 100):</label>
+                            <input type="number" id="messagesQuantity" class="messagesQuantity" min="1" max="100" >
                         </div>
-                        <button class="btn">Generate</button>
+                        <button class="btn buttonNormalize" onclick="runNormalize()">Generate</button>
                     </div>
                 </div>
             </div>
